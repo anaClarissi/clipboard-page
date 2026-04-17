@@ -1,0 +1,21 @@
+:root {
+
+    --green-01: #26baa4;
+    --blue-01: #6173ff;
+
+    --gray-01: #4c545d;
+    --gray-02: #9fabb2;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-size: 1.125rem;
+}
