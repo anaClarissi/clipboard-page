@@ -373,6 +373,10 @@ body {
     color: var(--gray-01);
 }
 
+#footer .nav-link:hover {
+    color: var(--green-01);
+}
+
 #pages-links {
     display: grid;
     grid-template-columns: 1fr;
