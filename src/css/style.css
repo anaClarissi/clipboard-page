@@ -74,6 +74,20 @@ body {
     background-color: #6173ffc9;
 }
 
+@media (min-width: 1280px) {
+
+    .download-actions {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .download-actions--btn {
+        width: 275px;
+        font-size: 1.125rem;
+    }
+
+}
+
 
 
 /* HEADER */
@@ -103,6 +117,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.75em;
+    max-width: 800px;
     margin-top: 1em;
     text-align: center;
 }
@@ -117,6 +132,34 @@ body {
     font-size: 0.875rem;
     font-weight: 600;
     color: var(--gray-02);
+}
+
+@media (min-width: 1280px) {
+
+    #header {
+        background-image: url('../images/bg-header-desktop.png');
+    }
+
+    .header-content {
+        padding: 7em 0;
+    }
+
+    #logo {
+        width: 125px;
+    }
+
+    .header-body {
+        margin-top: 2em;
+    }
+
+    .header-title {
+        font-size: 3rem;
+    }
+
+    .header-text {
+        font-size: 1.125rem;
+    }
+
 }
 
 
