@@ -5,6 +5,7 @@
 
     --gray-01: #4c545d;
     --gray-02: #9fabb2;
+    --gray-03: #F5F6F8;
 
     --font-primary: 'Bai Jamjuree', Arial, Helvetica, sans-serif;
 
@@ -214,4 +215,50 @@ body {
 
 .card-logo {
     width: 120px;
+}
+
+
+
+/* FOOTER */
+
+#footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    place-items: center;
+    padding: 3em 1em 1em;
+    background-color: var(--gray-03);
+}
+
+#logo-footer {
+    width: 50px;
+}
+
+#footer .navbar {
+    text-align: center;
+}
+
+#footer .navbar-nav {
+    gap: 1em;
+}
+
+#footer .nav-item {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--gray-01);
+}
+
+#pages-links {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em !important;
+}
+
+#social-links .nav-link i {
+    font-size: 1.75rem;
 }
