@@ -157,7 +157,7 @@ body {
     }
 
     .header-text {
-        font-size: 1.125rem;
+        font-size: 1.2rem;
     }
 
 }
@@ -258,6 +258,88 @@ body {
 
 .card-logo {
     width: 120px;
+}
+
+@media (min-width: 1280px) {
+
+    #main {
+        padding: 0;
+        padding-bottom: 8em;
+        gap: 7em;
+    }
+
+    #main section {
+        gap: 3em;
+    }
+
+    .section-header {
+        max-width: 750px;
+        gap: 1.5em;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .section-subtitle {
+        font-size: 1.125rem;
+    }
+
+    .card-title {
+        font-size: 1.75rem;
+    }
+
+    .card-text {
+        font-size: 1.125rem;
+    }
+
+    /* KEEP SECTION */
+    
+    #keep-section .section-body {
+        position: relative;
+        flex-direction: row;
+        justify-content: left;
+        gap: 5em;
+        width: 100%;
+    }
+
+    #keep-section .section-img {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    #keep-img {
+        width: 110%;
+        object-fit: contain;
+    }
+
+    #keep-section .section-items {
+        flex: 1;
+        justify-content: center;
+        padding: 5em;
+    }
+    
+    .keep-card {    
+        max-width: 400px;
+        align-items: start;
+        text-align: left;
+    }
+
+    /* SUPERCHARGE SECTION */
+
+    #supercharge-section .section-body{
+        gap: 3em;
+    }
+
+    #supercharge-section .section-items {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .card-logo {
+        width: 150px;
+    }
+
 }
 
 
